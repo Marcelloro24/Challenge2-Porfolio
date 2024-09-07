@@ -147,3 +147,49 @@ footer ul {
 #small-pics img {
     width: 100%;
 }
+
+
+@media screen and (max-width: 768px){
+
+    header {
+        flex-direction: column;
+
+    }
+
+    header ul {
+        justify-content: center;
+        text-align: center;
+    }
+
+    header li {
+        padding: 5px;
+    }
+
+    #avatar-section{
+        display: flex;
+        flex-direction: column;
+}
+
+aside {
+    justify-content: start;
+}
+#avatar-section p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    }
+    
+    section {
+        flex: 1 0 100%;
+    }
+    #contact-details {
+
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 0.8rem;
+    
+    }
+
+}
